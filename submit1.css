@@ -1,0 +1,42 @@
+.word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    font-size: x-large;
+    transition: 0.6s all;
+    color: rgb(72, 197, 30);
+    border-radius: 3px;
+}
+
+.word:hover{
+    color: rgb(255, 255, 255)
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    font-size: x-large;
+    
+
+}
+.home a{
+   flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.6s all;
+    color: white;
+}
+.home:hover{
+   color: rgb(255, 0, 0);
+    border-radius: 20px;
+    font-size: 23px;
+}
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534ad50ae4b04a5110f5ae72/0bb5fac3-bb77-4715-bd1f-e043159b0fb8/Biblioth%C3%A8que+de+l%27Assembl%C3%A9e+Nationale%2C+Paris%2C+1796.jpg?format=1500w);
+    background-position: center;
+}

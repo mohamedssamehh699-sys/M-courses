@@ -1,0 +1,82 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.squarespace-cdn.com/content/v1/534ad50ae4b04a5110f5ae72/c4732bf1-a828-4a34-a5db-2ec012d3ffa3/Biblioth%C3%A8que+Sainte-Genevi%C3%A8ve%2C+Paris%2C+1850.jpg?format=1500w);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 80%;
+    max-width: 500px auto;
+    height: 400px auto;
+    background-position: center;
+}
+
+.main .course-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .instructor {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .note {
+    display: flex;
+    flex-direction: column;
+}
+
+.main label {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(58 40 4);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534ad50ae4b04a5110f5ae72/0bb5fac3-bb77-4715-bd1f-e043159b0fb8/Biblioth%C3%A8que+de+l%27Assembl%C3%A9e+Nationale%2C+Paris%2C+1796.jpg?format=1500w);
+    height: fit-content;
+}
+input, textarea{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: rgba(255, 255 , 255 , 0.7);
+}
+label{
+    display: block;
+    font-family: serif;
+    font-weight: bold;
+    color: #ffff;
+    margin-bottom:5px ;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+
+}
+.submit{
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.submit:hover{
+    background-color: #f1c40f;
+    transform: scale(1.05);
+}

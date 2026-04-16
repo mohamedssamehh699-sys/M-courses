@@ -1,0 +1,77 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.squarespace-cdn.com/content/v1/534ad50ae4b04a5110f5ae72/c4732bf1-a828-4a34-a5db-2ec012d3ffa3/Biblioth%C3%A8que+Sainte-Genevi%C3%A8ve%2C+Paris%2C+1850.jpg?format=1500w);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-position: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 65vh;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(58 40 4);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534ad50ae4b04a5110f5ae72/c4732bf1-a828-4a34-a5db-2ec012d3ffa3/Biblioth%C3%A8que+Sainte-Genevi%C3%A8ve%2C+Paris%2C+1850.jpg?format=1500w);
+}
+
+.welcome {
+    color: aliceblue;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 95%;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(58 40 4);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.links a {
+    /* display: flex; */
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.6s all;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.links a:hover {
+    color: rgba(11, 54, 97, 0.488);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+/* div {
+    border: red solid 1px;
+} */
+.color .background .welcome{
+    font-size:x-large;
+    transition: 0.6s all;
+}
+.welcome a{
+    transition: 0.6s all;
+}
+.welcome:hover{
+    color: rgb(129, 129, 17);
+}
+.ww {
+    display: flex;
+    /* felx: 1; */
+    align-items: center;
+    right: 20px;
+}

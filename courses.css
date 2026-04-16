@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    background-color: #121212;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534ad50ae4b04a5110f5ae72/0bb5fac3-bb77-4715-bd1f-e043159b0fb8/Biblioth%C3%A8que+de+l%27Assembl%C3%A9e+Nationale%2C+Paris%2C+1796.jpg?format=1500w)
+}
+    table{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse ;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.squarespace-cdn.com/content/v1/534ad50ae4b04a5110f5ae72/c4732bf1-a828-4a34-a5db-2ec012d3ffa3/Biblioth%C3%A8que+Sainte-Genevi%C3%A8ve%2C+Paris%2C+1850.jpg?format=1500w);
+    background-position: center;
+    border-radius: 15px ;
+
+}
+th ,td{
+    padding: 15px;
+    text-align: center;
+}
+td{
+    color: rgba(186, 139, 139, 0.847);
+}
+tr{
+    color: rgb(176, 184, 184);
+}
+tr:hover{
+    background-color: rgba(58 , 40 , 4 , 0.2);
+    transition: 0.3s;
+    font-weight: bold;
+}
+tr:nth-child(even){
+    background-color: #4e4831ad;
+}
+th{
+    background-color: rgb(58, 40 , 4);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+tr a{
+    transition: 0.6s;
+}
+td a{
+    transition: 0.6s;
+}
+td:hover{
+    color: rgba(255, 255, 255, 0.783);
+}
